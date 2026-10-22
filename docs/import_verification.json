@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "dataset": "Toys",
+  "users": 19412,
+  "installed_wheel": true,
+  "legacy_data_conversion": true,
+  "cli_full_validation": true,
+  "max_metric_difference": 5.220651549953104e-10,
+  "test_evaluations": 0
+}

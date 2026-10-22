@@ -1,0 +1,4 @@
+{
+  "model": {"correction": "nonnegative"},
+  "training": {"seed": 2024}
+}

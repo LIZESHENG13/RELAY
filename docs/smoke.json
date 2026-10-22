@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "installed_wheel": true,
+  "isolated_working_directory": true,
+  "training_without_test_file": true,
+  "resume_cli": true,
+  "wheel_sha256": "5d02bb8671ac934f1a5bef95d0e3f018c9a7fda3f87601b2aeb1b45db13bdd3f",
+  "test": {
+    "split": "test",
+    "users": 24,
+    "metrics": {
+      "recall@1": 0.041666666666666664,
+      "ndcg@1": 0.041666666666666664,
+      "recall@5": 0.20833333333333334,
+      "ndcg@5": 0.11162010339394672,
+      "recall@10": 0.3333333333333333,
+      "ndcg@10": 0.14935175750926324,
+      "score@10": 0.18614807267407726
+    }
+  },
+  "cpu_smoke_benchmark": {
+    "users": 24,
+    "batch_size": 16,
+    "repeats": 6,
+    "full_pass_seconds": [
+      0.0025684330612421036,
+      0.002609780989587307,
+      0.0026182997971773148,
+      0.0025959862396121025,
+      0.0025630760937929153,
+      0.0025085299275815487
+    ],
+    "median_full_pass_seconds": 0.002582209650427103,
+    "parameters": 22882,
+    "execution": "eager",
+    "device": "cpu",
+    "pytorch": "2.14.0+cu130",
+    "precision": "torch.float32",
+    "cuda_graph_verified": false,
+    "scope": "GPU/CPU-resident histories, cached catalog vectors, encoding, full-catalog scoring, memory correction, and Top-10 SID lookup; excludes loading, transfers, preparation, and warmup.",
+    "split": "test"
+  }
+}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "relay-sequential-recommendation"
+version = "0.1.0"
+description = "One query, two roles for sequential recommendation"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.4", "numpy>=1.24"]
+
+[project.optional-dependencies]
+legacy-data = ["datasets>=2.18"]
+
+[project.scripts]
+relay = "relay.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,4 @@
+{
+  "model": {"dim": 256, "heads": 4, "inner": 1024, "encoder_layers": 1, "readout_layers": 1, "max_length": 20, "dropout": 0.1, "norm_eps": 0.00001, "temperature": 0.01, "neighbors": 8, "queries": 1, "correction": "candidate_signed", "vocab_size": 1028},
+  "training": {"seed": 2024, "epochs": 150, "patience": 10, "batch_size": 1024, "eval_batch_size": 256, "learning_rate": 0.0001, "weight_decay": 0.0, "warmup_steps": 10000, "max_grad_norm": 1.0}
+}

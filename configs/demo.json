@@ -1,0 +1,4 @@
+{
+  "model": {"dim": 32, "heads": 4, "inner": 64, "max_length": 20, "dropout": 0.0, "neighbors": 8, "queries": 1, "correction": "candidate_signed", "vocab_size": 68},
+  "training": {"seed": 2024, "epochs": 3, "patience": 3, "batch_size": 32, "eval_batch_size": 32, "learning_rate": 0.001, "weight_decay": 0.0, "warmup_steps": 0, "max_grad_norm": 1.0}
+}

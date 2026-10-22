@@ -1,0 +1,171 @@
+{
+  "passed": true,
+  "device": "cpu",
+  "threads": 2,
+  "torch": "2.14.0+cu130",
+  "frozen_source_count": 64,
+  "frozen_sources_unchanged": true,
+  "test_evaluations": 0,
+  "records": [
+    {
+      "dataset": "sports",
+      "variant": "shared_d1",
+      "checkpoint_sha256": "de0fb0e7635da178323bccf24d3f71c117e73ddc0b76ba826a484fea32578c84",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2043650,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    },
+    {
+      "dataset": "beauty",
+      "variant": "shared_d1",
+      "checkpoint_sha256": "e12526ba485ea59e57107d778f9ca05d6e06784594beb84785d26186dc4a0166",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2043650,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    },
+    {
+      "dataset": "toys",
+      "variant": "shared_d1",
+      "checkpoint_sha256": "68631320062cda5ab5a045c37eae6533e9827c11520eb0d17d37833a27c0c820",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2043650,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0,
+      "full_validation": {
+        "users": 19412,
+        "ordered_top10_equal": true,
+        "metrics": {
+          "recall@1": 0.05326602101792705,
+          "ndcg@1": 0.05326602101792705,
+          "recall@5": 0.1051411498042448,
+          "ndcg@5": 0.08004035558286972,
+          "recall@10": 0.1367195549144859,
+          "ndcg@10": 0.09024536660478572,
+          "score@10": 0.09954020426672576
+        },
+        "reported_metric_max_abs_difference": 5.220651549953104e-10
+      }
+    },
+    {
+      "dataset": "scientific",
+      "variant": "shared_d1",
+      "checkpoint_sha256": "862a0532c8af0fdce4ae9d81e35808e2873c42623bdf346e85442b95e6bdfdbf",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2043650,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    },
+    {
+      "dataset": "instrument",
+      "variant": "shared_d1",
+      "checkpoint_sha256": "ae593f08b1e714f7edcbc6d9618822574b7bd62cec87318e95b6579e1ef11edd",
+      "users_checked": 32,
+      "temperature": 0.1,
+      "parameters": 2043650,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    },
+    {
+      "dataset": "games",
+      "variant": "shared_d1",
+      "checkpoint_sha256": "a58076b31baac88b6265ba9266809f636932f10ccbdec79085ef70e597bb8e22",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2043650,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    },
+    {
+      "dataset": "toys",
+      "variant": "relay_q1",
+      "checkpoint_sha256": "61065881b5a9b4b6b4065122498b15b5a0ba5fe73389b027c27158a9e92f5d93",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2043650,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    },
+    {
+      "dataset": "toys",
+      "variant": "relay_q2",
+      "checkpoint_sha256": "71c9c1c1726935b9eabe4e79b8a54c8dead75817ef6638f1aff6bef02c6dadc9",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2043906,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    },
+    {
+      "dataset": "toys",
+      "variant": "relay_q4",
+      "checkpoint_sha256": "dd3532cf630a43ce9bfd1f0fbfb62380cb5c09dad89104b567b82dd8face4405",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2044418,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    },
+    {
+      "dataset": "toys",
+      "variant": "candidate_nonnegative",
+      "checkpoint_sha256": "9a356fa3af20d8c0d75184884db4476db8683974601fc440922a8fc549ed7f45",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2043650,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    },
+    {
+      "dataset": "toys",
+      "variant": "candidate_signed",
+      "checkpoint_sha256": "874a4471969e57ae799ed9b4886c23d4ae5a99de5735b28649b3d081b8b2e8a7",
+      "users_checked": 32,
+      "temperature": 0.01,
+      "parameters": 2043650,
+      "score_max_abs_difference": 0.0,
+      "ordered_top10_equal": true,
+      "training_loss_abs_difference": 0.0,
+      "training_gradient_max_abs_difference": 0.0
+    }
+  ],
+  "training_memory_reconstruction": {
+    "passed": true,
+    "domains": 6,
+    "train_windows": {
+      "sports": 189543,
+      "beauty": 131413,
+      "toys": 109361,
+      "scientific": 259992,
+      "instrument": 339519,
+      "games": 530300
+    },
+    "neighbors_exact": true,
+    "counts_exact": true
+  }
+}

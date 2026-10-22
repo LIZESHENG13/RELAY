@@ -1,0 +1,13 @@
+{
+  "evaluation_unit": "Distinct full four-code SID; collisions occupy one catalog entry",
+  "history_length": 20,
+  "chronological_split": "last interaction test; preceding interaction validation; earlier prefixes train",
+  "datasets": [
+    {"name": "Sports", "collection": "Amazon Reviews 2014", "category": "Sports_and_Outdoors", "users": 35598, "items": 18357, "sids": 15102, "interactions": 296337},
+    {"name": "Beauty", "collection": "Amazon Reviews 2014", "category": "Beauty", "users": 22363, "items": 12101, "sids": 10377, "interactions": 198502},
+    {"name": "Toys", "collection": "Amazon Reviews 2014", "category": "Toys_and_Games", "users": 19412, "items": 11924, "sids": 10220, "interactions": 167597},
+    {"name": "Scientific", "collection": "Amazon Reviews 2023", "category": "Industrial_and_Scientific", "users": 50985, "items": 25848, "sids": 19810, "interactions": 412947},
+    {"name": "Instruments", "collection": "Amazon Reviews 2023", "category": "Musical_Instruments", "users": 57439, "items": 24587, "sids": 20951, "interactions": 511836},
+    {"name": "Games", "collection": "Amazon Reviews 2023", "category": "Video_Games", "users": 94762, "items": 25612, "sids": 20944, "interactions": 814586}
+  ]
+}
