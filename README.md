@@ -11,6 +11,8 @@ main configuration uses one query with candidate-conditioned signed memory
 correction. Nonnegative correction and two/four-query configurations are also
 provided for controlled comparisons and model extensions.
 
+Anonymous repository: [RELAY](https://anonymous.4open.science/r/RELAY-F98C).
+
 Model implementation: [src/relay/model.py](src/relay/model.py). The command-line
 entry points are in [src/relay/cli.py](src/relay/cli.py), with default and per-domain
 configurations under [configs](configs).
